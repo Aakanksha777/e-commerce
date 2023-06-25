@@ -1,12 +1,14 @@
 import React from 'react'
+import './ProductCard.css'
 
-const ProductCard = ({image, description, price}) => {
+const ProductCard = ({PosterImage, category}) => {
   return (
-    <div style={{border : "1px solid black"}}>
-      {/* <img src='' alt='product'/> */}
-      <div className='product-image'>product-image</div>
+    <div className='product-card-main'>
+      <img src={PosterImage} alt='product' className='product-card-img'/>
+      <h4 className='product-card-text'>{category}</h4>
+      {/* <div className='product-image'>product-image</div>
       <div className='product-description'>product-description</div>
-      <div className='product-price'>product-price</div>
+      <div className='product-price'>product-price</div> */}
     </div>
   )
 }

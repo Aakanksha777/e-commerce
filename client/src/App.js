@@ -1,18 +1,16 @@
 import './App.css';
-import CartPage from './components/CartPage/CartPage';
 import LandingPage from './components/LandingPage/LandingPage';
-import Login from './components/Login/Login';
-import Signup from './components/Signup/Signup';
-import ProductPage from './components/ProductPage/ProductPage';
+import Navbar from './components/Navbar/Navbar';
+import NewCollection from './components/NewCollection/NewCollection';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-     <LandingPage/>
-     <ProductPage/>
-     <CartPage/>
-     <Login/>
-     <Signup/>
+      <Navbar/>
+      <LandingPage/>
+      <NewCollection/>
+      <Footer/>
     </div>
   );
 }

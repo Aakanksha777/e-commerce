@@ -1,23 +1,35 @@
 * {
     padding: 0;
-    margin: 0.5rem
+    /* margin: 0.5rem */
 }
-/* .main-landing-page {
-    border: 1px dotted black;
-} */
+.main-landing-page {
+    /* border: 1px dotted black; */
+} 
 
-.categories {
+.filter-product {
     height: 30vh;
-    background-color: antiquewhite;
+    /* background-color: lightgray; */
+    display: flex;
+  
+
 }
 
-.products {
+.product-list {
     display: flex;
     justify-content: center;
+    /* align-items: center; */
+    margin: auto;
+    /* border: 3px solid orangered; */
 }
 
 .hero-image {
+    /* background-color: lightpink; */
+    /* color : rgb(202, 202, 94); */
+    /* padding: 30px; */
     height: 60vh;
-    background-color: lightpink;
+    /* border: 2px dotted darkgoldenrod; */
+    margin: 8px;
+    width: 80%;
+    /* background-image: url('../../Assets/heroImage.jpg'); */
 }
 
